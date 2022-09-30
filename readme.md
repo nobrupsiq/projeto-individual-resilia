@@ -4,7 +4,7 @@
 
 ![preview](./.github/preview.png)
 
-[🔗 Clique aqui para acessar](https://nobrupsiq.github.io/nlw-eSports-explorer/)
+[🔗 Clique aqui para acessar](https://nobrupsiq.github.io/projeto-individual-resilia/)
 
 ## 🛠 Tecnologias
 
