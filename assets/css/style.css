@@ -316,3 +316,92 @@ footer {
     padding: 20px;
     text-align: center;
 }
+
+
+/* RESPONSIVIDADE
+    580/320
+*/
+
+@media (max-width: 580px) {
+    .boas-vindas-personagem img {
+        display: none;
+    }
+    .sobre-items {
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu a {
+        font-size: 0.8em;
+        padding: 2px 5px;
+    }
+    .menu ul {
+        gap: 2px;
+    }
+}
+
+@media (max-width: 320px) {
+    .boas-vindas-personagem img {
+        display: none;
+    }
+    .boas-vindas-container {
+        justify-content: center;
+    }
+    .sobre-items {
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu ul {
+        gap: 10px;
+        align-items: center;
+        margin: 0;
+    }
+
+    .menu a {
+        font-size: 0.7em;
+        padding: 2px 5px;
+        border-radius: 5px;
+    }
+    .logo img {
+        width: 40px
+    }
+    .header-container {
+        flex-direction: column;
+    }
+    .boas-vindas-container {
+        padding: 40px 0
+    }
+    .sobre img {
+        width: 180px
+    }
+    .sobre-text {
+            max-width: 220px;
+    }
+
+    .sobre-text h1 {
+            font-size: 1.3em;
+            line-height: 1.5;
+    }
+
+    .sobre-text p {
+        font-size: 1em;
+        line-height: 1.5;
+        margin-top: 15px
+    }
+    .title {
+        padding: 0 0 40px 0;
+    }
+    .sobre-items {
+        gap: 60px;
+    }
+    .hobbies {
+        border-bottom: 2px solid #c9c0c0;
+        padding: 40px 0 40px 0;
+    }
+        .boas-vindas-intro {
+            padding: 0 20px;
+        }
+
+        .boas-vindas-intro h1 {
+            font-size: 1.625em;
+        }
+}
