@@ -1,6 +1,6 @@
 # Projeto individual Resilia 🚀
 
-> PROJETO INDIVIDUAL MÓDULO 1
+> PROJETO INDIVIDUAL MÓDULO 1: Quem não é visto não é lembrado!
 
 ![preview](./.github/preview.png)
 
