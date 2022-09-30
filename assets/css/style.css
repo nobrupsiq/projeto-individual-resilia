@@ -6,6 +6,11 @@ CSS RESETE PARA ZERAR ALGUMAS PROPRIEDADES PADRÕES
 max-width=1140PX
 */
 
+/* Scroll-behavior navega pelas minhas seções de um jeito mais suave */
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -27,7 +32,10 @@ body {
 /* HEADER */
 
 .header {
-    border-bottom: 2px solid #c9c0c0;
+    /* border-bottom: 2px solid #c9c0c0; */
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 .header-container {
@@ -37,6 +45,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 10px 10px;
+
 }
 
 .menu ul {
@@ -280,6 +289,25 @@ body {
     outline: 0;
     padding: 2px 1px;
     resize: none;
+    display: block;
+}
+
+.contato form button {
+    padding: 5px 15px;
+    margin-top: 20px;
+    color: #fff;
+    background: #107da8;
+    border: 0;
+    font-size: 1.1em;
+    border-radius: 5px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.contato form button:hover {
+    background: #23b7f1;
+    color: #000;
+    box-shadow: 2px 2px 5px 2px #000;
 }
 
 /* RODAPÉ */
