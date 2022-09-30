@@ -1,6 +1,11 @@
 /*
 CSS RESETE PARA ZERAR ALGUMAS PROPRIEDADES PADRÕES
 */
+
+/* PADRÃO DE CONTAINER
+max-width=1140PX
+*/
+
 * {
     margin: 0;
     padding: 0;
@@ -64,7 +69,6 @@ body {
 .menu a.ativo::after {
     width: 100%;
 }
-
 
 
 /* MAIN */
@@ -131,4 +135,32 @@ main {
 
 .boas-vindas-socials img:hover {
     transform: scale(1.4);
+}
+
+
+/* SECAO SOBRE */
+
+.sobre {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 80px 0;
+}
+
+.sobre h1 {
+    font-size: 1.5em;
+    color: #23b7f1;
+}
+
+.sobre h1 span {
+    color: #000;
+}
+
+.sobre-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre-img img {
+    max-width: 120px;
 }
