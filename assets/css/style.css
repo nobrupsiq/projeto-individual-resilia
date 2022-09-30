@@ -1,0 +1,50 @@
+/*
+CSS RESETE PARA ZERAR ALGUMAS PROPRIEDADES PADRÕES
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul,
+li,
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
+/* HEADER */
+
+.header {
+    border-bottom: 2px solid #c9c0c0
+}
+
+.header-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+
+.menu ul {
+    display: flex;
+    gap: 20px;
+}
+
+.menu ul li a {
+    color: #000;
+    padding: 5px 10px;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+.menu ul li a:hover {
+    background-color: #67B7D6;
+    border-radius: 5px 20px 5px 20px;
+}
