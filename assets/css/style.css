@@ -281,3 +281,10 @@ body {
     padding: 2px 1px;
     resize: none;
 }
+
+/* RODAPÉ */
+
+footer {
+    padding: 20px;
+    text-align: center;
+}
