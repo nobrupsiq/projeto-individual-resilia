@@ -16,6 +16,7 @@
 ### HTML
 
 -   Trabalhei com acessibilidade utilizando `alt` nas imagens e também fiz uso do atributo `tabindex` para facilitar na navegação por TABS
+-   Utilizei o atributo `pattern` para restringir alguns caracteres no formulário.
 
 <br>
 
