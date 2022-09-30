@@ -10,7 +10,7 @@ max-width=1140PX
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 ul,
@@ -27,7 +27,7 @@ body {
 /* HEADER */
 
 .header {
-    border-bottom: 2px solid #c9c0c0
+    border-bottom: 2px solid #c9c0c0;
 }
 
 .header-container {
@@ -53,7 +53,6 @@ body {
     font-weight: 500;
 }
 
-
 .menu a::after {
     content: "";
     display: block;
@@ -70,12 +69,7 @@ body {
     width: 100%;
 }
 
-
 /* MAIN */
-
-main {
-    border-bottom: 2px solid #c9c0c0
-}
 
 .boas-vindas-container {
     max-width: 1140px;
@@ -110,7 +104,7 @@ main {
     display: inline-block;
     padding: 10px 20px;
     border-radius: 5px;
-    transition: .5s;
+    transition: 0.5s;
     font-weight: bold;
     margin-bottom: 80px;
 }
@@ -130,37 +124,56 @@ main {
 
 .boas-vindas-socials img {
     width: 28px;
-    transition: .4s;
+    transition: 0.4s;
 }
 
 .boas-vindas-socials img:hover {
     transform: scale(1.4);
 }
 
-
 /* SECAO SOBRE */
 
 .sobre {
-    max-width: 1140px;
-    margin: 0 auto;
-    padding: 80px 0;
+    border-top: 2px solid #c9c0c0;
+    border-bottom: 2px solid #c9c0c0;
+    padding: 40px 0 120px 0;
+}
+.title {
+    text-align: center;
+    padding: 0px 0 80px 0;
+    font-size: 2.2em;
+    color: #23b7f1;
+    filter: drop-shadow(1px 2px 1px #000);
 }
 
-.sobre h1 {
-    font-size: 1.5em;
+.sobre-items {
+    display: flex;
+    max-width: 1140px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    gap: 140px;
+}
+
+.sobre-text {
+    max-width: 420px;
+}
+
+.sobre-text span {
     color: #23b7f1;
 }
 
-.sobre h1 span {
-    color: #000;
+.sobre-text h1 {
+    font-size: 2em;
+    line-height: 1.5;
 }
 
-.sobre-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.sobre-text p {
+    font-size: 1.1em;
+    line-height: 1.5;
+    margin-top: 15px
 }
 
-.sobre-img img {
-    max-width: 120px;
+.sobre-items img {
+    max-width: 360px;
 }
